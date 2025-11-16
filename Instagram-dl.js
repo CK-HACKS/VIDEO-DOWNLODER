@@ -44,7 +44,7 @@ export default {
         JSON.stringify({
           status: 'error',
           message: 'Request failed',
-          credit: '@old_studio786'
+          credit: '@CKEXPLOIT'
         }, null, 2),
         { status: 502, headers: { 'Content-Type': 'application/json' } }
       );
@@ -55,7 +55,7 @@ export default {
         JSON.stringify({
           status: 'error',
           message: `HTTP ${response.status} from snapdownloader`,
-          credit: '@old_studio786'
+          credit: '@CKEXPLOIT'
         }, null, 2),
         { status: response.status, headers: { 'Content-Type': 'application/json' } }
       );
@@ -80,7 +80,7 @@ export default {
           status: 'success',
           video: videoUrl,
           thumbnail: thumbUrl || null,
-          channel: '@old_studio786'  // Aapka credit
+          channel: '@CKEXPLOIT'  // Aapka credit
         }, null, 2),
         {
           headers: {
@@ -95,7 +95,7 @@ export default {
         JSON.stringify({
           status: 'error',
           message: 'Video not found in response',
-          channel: '@old_studio786'
+          channel: '@CKEXPLOIT'
         }, null, 2),
         { status: 404, headers: { 'Content-Type': 'application/json' } }
       );
