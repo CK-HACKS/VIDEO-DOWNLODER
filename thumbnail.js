@@ -31,7 +31,7 @@ export default {
             '?url=https://www.youtube.com/watch?v=VIDEO_ID',
             '?id=VIDEO_ID'
           ],
-          channel: '@old_studio786'
+          channel: '@CKEXPLOIT'
         }, null, 2),
         { status: 400, headers }
       );
@@ -43,7 +43,7 @@ export default {
         JSON.stringify({
           status: 'error',
           message: 'Invalid YouTube Video ID format',
-          channel: '@old_studio786'
+          channel: '@CKEXPLOIT'
         }, null, 2),
         { status: 400, headers }
       );
