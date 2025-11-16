@@ -21,7 +21,7 @@ export default {
           status: 'error',
           message: 'YouTube URL parameter is required',
           example: '?url=https://www.youtube.com/watch?v=VIDEO_ID',
-          channel: '@old_studio786'
+          channel: '@CKEXPLOIT'
         }, null, 2),
         { status: 400, headers }
       );
@@ -74,7 +74,7 @@ export default {
         ],
         quick_method: 'Add "ss" before youtube in URL',
         example: `https://ssyoutube.com/watch?v=${videoId}`,
-        channel: '@old_studio786'
+        channel: '@CKEXPLOIT'
       }, null, 2),
       { headers }
     );
