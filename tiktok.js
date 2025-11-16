@@ -89,7 +89,7 @@ export default {
           title: finalResult.title,
           author: finalResult.author,
           duration: finalResult.duration,
-          channel: '@old_studio786'
+          channel: '@CKEXPLOIT'
         }, null, 2),
         {
           headers: {
@@ -142,7 +142,7 @@ export default {
       JSON.stringify({
         status: 'error',
         message: 'All download methods failed. TikTok may have updated their protection.',
-        channel: '@old_studio786'
+        channel: '@CKEXPLOIT'
       }, null, 2),
       { status: 500, headers: { 'Content-Type': 'application/json' } }
     );
